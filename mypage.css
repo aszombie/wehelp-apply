@@ -54,7 +54,7 @@ body{background-color: rgb(46, 43, 52);max-height: 950px;}
 }
 @media(max-width:500px){
     .bar{
-        width: 350px ;
+        width: 350px ;left: 10%;
     }
     .box{
         width: 340px;
@@ -67,5 +67,8 @@ body{background-color: rgb(46, 43, 52);max-height: 950px;}
     }
     .head{
         font-size: 40px;
+    }
+    .day{
+        left: 10px;
     }
 }   
