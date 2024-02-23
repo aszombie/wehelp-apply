@@ -4,7 +4,7 @@
 body{background-color: rgb(46, 43, 52);max-height: 950px;}
 
 .bar{
-    background-color: rgba(139,0,0,0.7);width: 1344px;height: 30px;position: relative;left: 15%;
+    background-color: rgba(139,0,0,0.7);width: 70%;height: 30px;position: relative;left: 15%;
     border-style:double;border-color: rgb(202, 65, 65);
     transition: 0.2s;
     z-index:2;
@@ -13,7 +13,7 @@ body{background-color: rgb(46, 43, 52);max-height: 950px;}
     color: rgba(255, 255, 255, 1);font-size: 24px;text-align: center;line-height: 30px;
 }
 .box{
-    background-color:rgba(202, 65, 65,0.8);color: white;width: 1305px;height: 500px;position: relative;left:16%; opacity: 0;transition:opacity 0.5s,top 0s;top: -5000px;
+    background-color:rgba(202, 65, 65,0.8);color: white;width: 68%;height: 500px;position: relative;left:16%; opacity: 0;transition:opacity 0.5s,top 0s;top: -5000px;
     border-style: double;border-color: darkred;
     z-index:1;
 }
@@ -44,31 +44,36 @@ body{background-color: rgb(46, 43, 52);max-height: 950px;}
 .day{
     width: 50px;height: 50px;position: absolute;top: 116px;;left: 30px;
 }
-@media(max-width:1600px){
-    .bar{
-        width: 1120px ;
-    }
-    .box{
-        width: 1088px;
-    }
-}
-@media(max-width:500px){
-    .bar{
-        width: 350px ;left: 10%;
-    }
-    .box{
-        width: 340px;
-    }
+@media(max-width:1000px){
     .barword{
-        font-size: 16px
+        font-size: 20px
     }
     .boxword{
-        font-size: 16px
+        font-size: 20px
+    }
+}
+@media(max-width:750px){
+    .head{
+        font-size: 35px;
+    }
+    .bar{
+        width: 80%;left: 10%;
+    }
+    .box{
+        width: 75%;
+        left: 12.5%;
+    }
+    .barword{
+        font-size: 13px
+    }
+    .boxword{
+        font-size: 13px
     }
     .head{
         font-size: 40px;
     }
     .day{
-        left: 10px;
+        left: 5px;width: 40px;height: 40px;
     }
-}   
+}
+   
