@@ -53,9 +53,6 @@ body{background-color: rgb(46, 43, 52);max-height: 950px;}
     }
 }
 @media(max-width:750px){
-    .head{
-        font-size: 35px;
-    }
     .bar{
         width: 80%;left: 10%;
     }
@@ -70,10 +67,32 @@ body{background-color: rgb(46, 43, 52);max-height: 950px;}
         font-size: 13px
     }
     .head{
-        font-size: 40px;
+        font-size: 39px;
     }
     .day{
         left: 5px;width: 40px;height: 40px;
     }
 }
+@media(max-width:360px){
+    .bar{
+        width: 80%;left: 10%;
+    }
+    .box{
+        width: 75%;
+        left: 12.5%;
+    }
+    .barword{
+        font-size: 12px
+    }
+    .boxword{
+        font-size: 12px
+    }
+    .head{
+        font-size: 35px;
+    }
+    .day{
+        left: 5px;width: 40px;height: 40px;
+    }
+}
+   
    
