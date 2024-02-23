@@ -1,0 +1,71 @@
+.head{
+    background-color: darkred;width: 100%;height: 100px;color: white;font-size: 50px;text-align: center;line-height: 100px;
+}
+body{background-color: rgb(46, 43, 52);max-height: 950px;}
+
+.bar{
+    background-color: rgba(139,0,0,0.7);width: 1344px;height: 30px;position: relative;left: 15%;
+    border-style:double;border-color: rgb(202, 65, 65);
+    transition: 0.2s;
+    z-index:2;
+}
+.barword{
+    color: rgba(255, 255, 255, 1);font-size: 24px;text-align: center;line-height: 30px;
+}
+.box{
+    background-color:rgba(202, 65, 65,0.8);color: white;width: 1305px;height: 500px;position: relative;left:16%; opacity: 0;transition:opacity 0.5s,top 0s;top: -5000px;
+    border-style: double;border-color: darkred;
+    z-index:1;
+}
+.boxword{
+    color: rgba(255, 255, 255, 1);font-size: 24px;text-align: center;
+}
+.bar2{
+    top:-506px;
+}
+.bar3{
+    top:-1012px;
+}
+.bar4{
+    top:-1518px;
+}
+.bar5{
+    top:-2024px;
+}
+.bar6{
+    top:-2530px;
+}
+.bar7{
+    top:-3036px;
+}
+.bar8{
+    top:-3542px;
+}
+.day{
+    width: 50px;height: 50px;position: absolute;top: 116px;;left: 30px;
+}
+@media(max-width:1600px){
+    .bar{
+        width: 1120px ;
+    }
+    .box{
+        width: 1088px;
+    }
+}
+@media(max-width:500px){
+    .bar{
+        width: 350px ;
+    }
+    .box{
+        width: 340px;
+    }
+    .barword{
+        font-size: 16px
+    }
+    .boxword{
+        font-size: 16px
+    }
+    .head{
+        font-size: 40px;
+    }
+}   
