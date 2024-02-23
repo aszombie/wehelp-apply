@@ -18,7 +18,7 @@ body{background-color: rgb(46, 43, 52);max-height: 950px;}
     z-index:1;
 }
 .boxword{
-    color: rgba(255, 255, 255, 1);font-size: 24px;text-align: center;
+    color: rgba(255, 255, 255, 1);font-size: 24px;text-align: justify;
 }
 .bar2{
     top:-506px;
